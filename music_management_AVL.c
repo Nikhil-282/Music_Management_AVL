@@ -1902,7 +1902,6 @@ int main() {
     printLevelOrderWithSpaces(AB);
 
     display_UL(UL);
-    printLevelOrderWithSpaces_user(UL);
     FILE* file_AB = fopen("new_AudioBook.txt" , "w");
     update_AB(AB , file_AB);
     fclose(file_AB);
