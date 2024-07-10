@@ -1687,43 +1687,7 @@ int main() {
             }
         }
     }
-    // int flag_12 = 0;
-    // int lis = listening_history_report_AB(UL , 5, &flag_12);
-    // printf("hours : %d\nmin  : %d\n" , lis/60 , lis%60);
-    // user_avl_node* temp_10 = listening_10(UL , 1);
-    // if(temp_10 == NULL){
-    //     printf("no\n");
-    // }
-    // printf("end of switch\n");
-    // display_AB(AB);
-    // display_UL(UL);
-    // int flag_que = 0;
-    // while(flag_que == 0){
-    //     int que_no;
-    //     printf("enter the ques num  : ");
-    //     scanf("%d" , &que_no);
-    //     switch(que_no){
-    //         case 9:
-    //         {
-    //             float temp_9 = 0.0;
-    //             most_popular(AB , &temp_9);
-    //             if(temp_9 == 0.0){
-    //                 printf("no audiobooks are not rated yet\n");
-    //             }
-    //             else{
-    //                 print_9(AB , temp_9);
-    //             }
-    //             break;
-    //         }
-    //         default:
-    //             break;
-    //     }
-    //     printf("to continue enter 0 , to exit enter 1  : ");
-    //     scanf("%d" , &que_no);
-    //     if(que_no == 1){
-    //         flag_que = 1;
-    //     }
-    // }
+   
  
   int t_flag=0;
   while(t_flag==0)
