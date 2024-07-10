@@ -1899,8 +1899,6 @@ int main() {
   }
      system("cls");
     display_AB(AB);
-    printLevelOrderWithSpaces(AB);
-
     display_UL(UL);
     FILE* file_AB = fopen("new_AudioBook.txt" , "w");
     update_AB(AB , file_AB);
